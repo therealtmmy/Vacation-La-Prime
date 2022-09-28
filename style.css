@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+* {
+    margin: 0%;
+    text-decoration: none;
+}
+
+a {
+    color: #244ffd;
+    font-family: 'Alegreya Sans', sans-serif;
+   
+}
+
+.Feel {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.head-background-div {
+    background-color: #c8e8f6;
+    width: 100%;
+    height: 2em;
+}
+
+.head-first-nav {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40em;
+    color: #244ffd;
+    position: sticky;
+    top: 0%;
+}
+
+.head-sec-nav {
+    background-color: #c8e8f6;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 23px;
+    padding-top: 50px;
+   
+}
+
+.nav-link {
+    margin-top: -20px;
+}
+
+.nav-link:hover {
+    color: #01b4dd;
+}
+
+.Vac-Tips {
+    background-color: #01b4dd;
+    width: 100%;
+    height: 50em;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Cursive {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+}
+
+.Vac-Img {
+    width: 60em;
+    height: auto;
+   margin-top: -45em;
+   margin-bottom: 70px;
+   border: 10px solid white;
+}
+
+.Vac-text {
+    padding-top: 0px;
+    padding: -60px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Gallery-div {
+    background-color:#c8e8f6;
+    height: 20em;
+    color:  #244ffd;
+    text-align: center;
+}
+
+.Gallery-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text {
+    font-family: 'Kanit', sans-serif;
+}
+
+.textt {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.texxt {
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+
+.gal-img {
+    margin-top: -200px;
+    margin-bottom: 35px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: 10px solid white;
+}
+
+.Extra-details {
+    background-color: #01b4dd;
+    height: 15em;
+    color: white;
+    text-align: center;
+}
+
+.Extra-details-text {
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Booking {
+    background-color:#c8e8f6;
+    height: 30em;
+    display: flex;
+}
+
+.Booking-img {
+    margin-top: -100px;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.Booking-text {
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+}
+
+.Book-Btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #244ffd;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Book-Btn:hover {
+    background-color:#c8e8f6;
+    border: 1px solid #01b4dd;
+    color:#01b4dd;
+    font-weight: 500;
+}
+
+
+.tag-div {
+    background-color: #01b4dd;
+    height: 5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+.footer {
+    background-color: white;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.Address {
+    font-size: 24px;
+}
+
+#Contact-Link {
+    font-size: 40px;
+    letter-spacing: 20px;
+    color: #01b4dd; 
+}
+
+#Contact-Link:hover {
+    color: #244ffd;
+}
+
+.attribution {
+    background-color: #01b4dd;
+    height: 2em;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+}
